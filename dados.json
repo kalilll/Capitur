@@ -5,7 +5,11 @@
       "titulo": "MARANHÃO",
       "descricao": "LENÇÓIS MARANHENSES",
       "imagem_fundo": "imgs/lencoismaranhenses.webp",
-      "logo": "Logo.png"
+      "logo": "Logo.png",
+      "introducao": "Se você está em busca de um destino paradisíaco e único no Brasil, os Lençóis Maranhenses são a escolha perfeita. Localizado no estado do Maranhão, esse é um verdadeiro paraíso natural que encanta turistas de todas as partes do mundo. Com suas dunas imensas e lagoas cristalinas, esse lugar deslumbrante oferece uma experiência única e inesquecível para quem visita. É um destino perfeito para quem gosta de natureza e busca uma aventura diferente para as férias.",
+      "image1":"imgs/lencois-maranhenses-image1.jpg",
+      "image2":"imgs/lencois-maranhenses-image2.jpg",
+      "image3":"imgs/lencois-maranhenses-image3.jpg"
     },
     {
       "id": "gramado",

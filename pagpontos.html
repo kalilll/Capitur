@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ponto Turístico</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
 </head>
 <body>
   <header class="topo">
@@ -18,21 +21,52 @@
   </div>
   <div class="opcoes">
     <button>
-      <img src="https://img.icons8.com/?size=100&id=343&format=png&color=000000" alt="">
-      <p>COMO CHEGAR</p>
+      <img class="img_button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC7ElEQVR4nO1aO2gUURR9fsCAKIIpVBQLRVNZmGzu3fWzrY0ggcUiyd6bGDdk7l1WEBGrtRRRxNLWUhQLS0EUFVSstDAqaKGg2PlD/EbemtnMfmdedhDBd2BgZnhz7jv3vTnNecZ4/GMggess8IQFqVrNL0+L13JZTlZ8SgKzrDhNlO8zKYI0e4AUHrHgDcOKc/VL8CUJlHoRVK2apazZghXQwK04RwLvSODkuGTW9iJgIgAggZtR7roQUnjecO+4QuEKtPDU7/F25P1HVjg3GWQ3uwiYrOS2k+CVhcbg2xYhbTuZYIXivqsXMsaw4E5WvMgKP+Yn8pMUrvFMNtNNQKk02E+Kp1jw63xTPtvn0fLw6hYhSSfmOq6Z36JYzm1hwfOs8GXhW7jDZdxvjFkSjhs7umMlCxxnwfehcNuI0SOD61v42xXqulXsD9zhfbuV68Rf2yqS28ACp8OJ8p9mPGSFg6wQRLcOC1wlzQ505O9WqGPnHbZeHH9N0LHcKhaokOCr1hpwvxhk98byJynUZKehiERmkJTfolzet4IFpxaEwEhifpdCrhNbzHjXb7wQ9iuSHOy3lvqfPRbetdTbbzJ4+3UAe/tVb7+x8Par3n6TwduvA9jbr3r7jYW3X/X2mwzefh3A3n7V228svP3q/26/nHJM0BxDkMJhGxukKYQVRupjm0LK2BA0PhhqTboi1xsWPEGV/JpehJDiLhK4G8lRbnWN2FyitLY8ArMTCmO1PDxSmAQ+kOJZnhna5CKENDtgI7iGxihON8xzseFmh+9etIvkJgLYzQqX6qmu4jf7PCmZoW5CSqXBfhueksD3ef5PYapreo2bXQQ041CAW7ukuiZ815Lq1oTjBQoy67rxOx4AiG4hfFZULBYKhWWJCxhjpsrDG1nwjN1qEd4HEd4w1f3FipfHJbPNhT/VVDcJwlSXFV431yDFe6zDe3rh73hIpnalfAjHgijfZxtjD/mQwGNrEmnye5i/iN+qsBgKu0pL9gAAAABJRU5ErkJggg==" alt="map--v1" alt="">
+      <p class="text_button">COMO CHEGAR</p>
     </button>
     <button>
-      <img src="https://img.icons8.com/?size=100&id=4525&format=png&color=000000" alt="">
-      <p>ONDE FICAR</p>
+      <img class="img_button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJElEQVR4nO1Yv2sVQRAeRQQRFAQtLKwsoqAW4pu5KATEMu0DwcjMGXkYZ54QLCzP0tbSf8F/wSYYQyrBQu1stLBQEBQR/M0m78zycufdWyVvX7IfLBzHfLP77dzOzB5Awg5BUcBuVrwsRi9Z6YV7du9gkpAbXWLDp2L0a2g8F8u6ALALYkbepxlWXCkXzkavRem6G2vP5XvFFWcLsUGUTonhQ0/AO1G8012kfaVNtzi5lxV7YvTWE/RIFrJz4109AFxdwBMDAT/XBeAnNrp3pd85UMeZu316vxMpih98Qbl1zmy9gFvnj4nRAzH8PojAZ1G6P3cjO9LWx/wiHWLFu6z4cV0M/XCbMn+Tjm/BGbhw2O24GH4ZCPjqBF3T6aMx+Rzr7pVRZsVvoVGGmL5ntmyq6tz1emcPjuwshgwjQ5lQjN4PZ8JauMrrChYbvfrjQGlVrHMRxgTpZ9OsuLSxofTGbXJRzOypJyk+8QjPcs1mIRLkms26NXm1arnW2PuMouyLio3+bW2dtYaNBpFARhXi901Voyq8TZxQHnuckYU0LajKWRtOKA/+VUgb27aThPAkCdmuEZFJPyNstPzXTKL0eNhHEyeUxx5nZCGxQnasEE4FkeI67LLd0i8kIZuRCqKlghgvJBVEa761lUg3REsFcTNSQZyUFkUCmr9QIRLLDTFUSHQ3RAkU8j/ngCQk1ojIhAyoQ5tfObEMrkg0CQkJUIvfcXIPdp+QCeMAAAAASUVORK5CYII=" alt="department">
+      <p class="text_button">ONDE FICAR</p>
     </button>
     <button>
-      <img src="https://img.icons8.com/?size=100&id=2856&format=png&color=000000" alt="">
-      <p>PASSEIOS</p>
+      <img class="img_button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVR4nO2YO07DQBBAR6TnCIiCM2RGgoZDuEIwYyGBlJ2QI+QCfO5CEwgdaSCcBERHAzSgJQ5yUiC8xNoP+6SV7cLSPs/szMgAmZ/ZP9neYKUxK77Yq32GGGGDN6L08b0MXUOMiKE3K3DYoy17ZYOvECNSRWL5PjokRBFWGi/ku89l8H6v3113EvG+eV1crHhVFEXHWQQ8wwPcZINPVRU8jVbEUvZwx1bAqhIeQawiFlaUWYrR+0G/uwuxilhE8aLa17PtVRCrSFEUHVEcVYd/+quXskiLSAqpxSkc9jKF8suraojRjyisNAlHgu6ch0YX6ukYSmo6kUVWhc0/VnoI6ExMGksMh7DGBi99b16WVmMRVjpr3PZbRFxEnNt+SCJlre2L0jEEgjQRsW1fFB+/omHwHAJCGokoTmcv4Mip7beI/E+RQSKplcxhT6r8JtUQkxpR5kOj/ePte/MyHxoN3YJP6l/zT1/WN1kkNHJEQiNHJDRyREIjRyQ0ckTAjU9yMtDyZEtVZwAAAABJRU5ErkJggg==" alt="signpost--v1">
+      <p class="text_button">PASSEIOS</p>
     </button>
     <button>
-      <img src="https://img.icons8.com/?size=100&id=25288&format=png&color=000000" alt="">
-      <p>RESTAURANTES</p>
+      <img class="img_button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADKElEQVR4nO1Zz2sTQRTeo4qix1rvgiBeavJee+lJEetFxIul+6ZRIt03rQpNxYNarCj6B6h3/wO9iKWCVrx5FOpNwYuIYG3VausP3u5smuimO2l2u1vZD0Ky83bfly8z38xknuMUKFDACsPce4wYZxTjotL4u5MXafxEGh+7o+XDYX7y8AgxTEus8/ywIN+VdHmgSYTSeL3T5GuQXlYar6aWn3Gq3hNBAywpLo8Pnu/Z7XQIyUEaa37OOmF6+Ul6RjE+8cm4PO4kDNI4Uf/1UsxPjDOOjDf/wit1JU7klbrqPZJifmL47IREcQ8pxlPEMEcavygNL5QHR23IbPOvFyrMb0OkGK+1MJu2JspaiGI4ZKbUHzSKg5Va3w7SMEaMP5WGlQqXDloRZS2ENLwMzIqXmtoZp4Jn4akVkYHn9W8nDW8s16PZv58J29oSIr92fYGj/i2NsWq1ZxsxfJS4OwIHUhHC+OwfIaatLSGhN4jxflScNN4x8Su2QpKGshFCGh6Z6e1EVNxlPG7i07FEmQphfCWxyljv/qi4DCnjk3exRClBWQ6teYlVqz07o+LSboR8iyXK0uxkVv2TF3BrVFzag+SwkG+za3wtsaER2BcVH+LSXuOROVshGXkE7gVrCNxqEZ80Q+tuLFGWQlzfzLBiVnGvKabRJYZlibezjmS4smMtvGfYgxHTdlpp/GXMV7MiytLsIUSAGWJv5Vreg2s848QgF2ZvRON97QyX3AytEIUQ/Z/2iJel2TMTwoXZW6Mwu86Z2cnfjgQ7YbNRXG6LKDdm5+Bw2z2Le8yqvrgpzU4aP/iJRssYPAPv1yMkaah1CJk1+63bUV0cS5QfIXCjqesZb7ZFlBsh5/p3+acqDF+liNPqf3xLopSgwvxyki0fkqhbrEmUAtzViWdejnxmbP4g5VGIYrjYUB8pD5h1YUkKJxXu6867kAr3dfsiGL8HnWBqiasH0sm8ZLgSw4PVA7zgfJg0PAyPmBKvIYYQVUGlNEkiWIn+nFJVN2lI1/v1PdP1aQ7dDUFoRjOZTDibFdRQDE1ret8wyCZPMTzfOMYCBZwk8QcXsJqvB57MGwAAAABJRU5ErkJggg==" alt="restaurant-menu">
+      <p class="text_button">RESTAURANTES</p>
     </button>
+  </div>
+  <div class="conteudo">
+    <div class="text_introducao">
+      <p id="introducao"></p>
+    </div>
+    <div>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img class="image_carousel" id="image1" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img class="image_carousel" id="image2" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img class="image_carousel" id="image3" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>
