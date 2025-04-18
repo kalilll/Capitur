@@ -1,0 +1,18 @@
+{
+  "pontos": [
+    {
+      "id": "lencois-maranhenses",
+      "titulo": "MARANHÃO",
+      "descricao": "LENÇÓIS MARANHENSES",
+      "imagem_fundo": "imgs/lencoismaranhenses.webp",
+      "logo": "Logo.png"
+    },
+    {
+      "id": "gramado",
+      "titulo": "Gramado",
+      "descricao": "Cidade turística charmosa da serra gaúcha.",
+      "imagem_fundo": "https://placekitten.com/1201/601",
+      "logo": "https://placekitten.com/101/101"
+    }
+  ]
+}
