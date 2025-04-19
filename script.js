@@ -26,6 +26,11 @@ fetch('dados.json')
     document.getElementById('text_onde_ficar1').textContent =ponto.text_onde_ficar1;
     document.getElementById('text_onde_ficar2').textContent =ponto.text_onde_ficar2;
     document.getElementById('text_onde_ficar3').textContent =ponto.text_onde_ficar3;
+    document.getElementById('image_onde_ficar1').src = ponto.image_onde_ficar1;
+    document.getElementById('image_onde_ficar2').src = ponto.image_onde_ficar2;
+    document.getElementById('image_onde_ficar3').src = ponto.image_onde_ficar3;
+    document.getElementById('image_onde_ficar4').src = ponto.image_onde_ficar4;
+    
 
     const hero = document.getElementById('hero');
     hero.style.backgroundImage = `url(${ponto.imagem_fundo})`;
@@ -43,6 +48,6 @@ fetch('dados.json')
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 3000);
+    setTimeout(showSlides, 2500);
   }
   

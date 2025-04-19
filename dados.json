@@ -17,7 +17,11 @@
       "image4":"imgs/lencois-maranhenses-image4.jpg",
       "text_onde_ficar1":"Barreirinhas é a base principal dos Lençóis Maranhenses, com melhor infraestrutura, mais opções de hospedagem e restaurantes, e de onde partem os principais passeios, como o sobrevoo, Lagoa Azul, Lagoa Bonita, Caburé, Rio Formiga e roteiros para Atins e Santo Amaro. Ideal para quem tem poucos dias.",
       "text_onde_ficar2":"Atins é a base mais rústica e charmosa, entre o mar e as lagoas, muito procurada por praticantes de kitesurf e um público jovem. Com ruas de areia e clima tranquilo, permite aproveitar lagoas e praia sem precisar sair em passeios todos os dias.",
-      "text_onde_ficar3":"Santo Amaro tem clima de cidade do interior, é calma e pouco movimentada. Apesar de menos procurada, oferece lagoas mais bonitas e de fácil acesso, já que está praticamente dentro do Parque Nacional, o que reduz o tempo de deslocamento."
+      "text_onde_ficar3":"Santo Amaro tem clima de cidade do interior, é calma e pouco movimentada. Apesar de menos procurada, oferece lagoas mais bonitas e de fácil acesso, já que está praticamente dentro do Parque Nacional, o que reduz o tempo de deslocamento.",
+      "image_onde_ficar1":"imgs/onde-ficar-lencois-maranhenses-image1.jpg",
+      "image_onde_ficar2":"imgs/onde-ficar-lencois-maranhenses-image2.jpg",
+      "image_onde_ficar3":"imgs/onde-ficar-lencois-maranhenses-image3.jpg",
+      "image_onde_ficar4":"imgs/onde-ficar-lencois-maranhenses-image4.jpg"
     },
     {
       "id": "gramado",
