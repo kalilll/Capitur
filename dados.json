@@ -6,10 +6,18 @@
       "descricao": "LENÇÓIS MARANHENSES",
       "imagem_fundo": "imgs/lencoismaranhenses.webp",
       "logo": "Logo.png",
-      "introducao": "Se você está em busca de um destino paradisíaco e único no Brasil, os Lençóis Maranhenses são a escolha perfeita. Localizado no estado do Maranhão, esse é um verdadeiro paraíso natural que encanta turistas de todas as partes do mundo. Com suas dunas imensas e lagoas cristalinas, esse lugar deslumbrante oferece uma experiência única e inesquecível para quem visita. É um destino perfeito para quem gosta de natureza e busca uma aventura diferente para as férias.",
+      "introducao1": "Se você está em busca de um destino paradisíaco e único no Brasil, os Lençóis Maranhenses são a escolha perfeita. Localizado no estado do Maranhão, esse é um verdadeiro paraíso natural que encanta turistas de todas as partes do mundo.",
+      "introducao2":"Com suas dunas imensas e lagoas cristalinas, esse lugar deslumbrante oferece uma experiência única e inesquecível para quem visita. É um destino perfeito para quem gosta de natureza e busca uma aventura diferente para as férias.",
       "image1":"imgs/lencois-maranhenses-image1.jpg",
       "image2":"imgs/lencois-maranhenses-image2.jpg",
-      "image3":"imgs/lencois-maranhenses-image3.jpg"
+      "image3":"imgs/lencois-maranhenses-image3.jpg",
+      "text_como_chegar1":"Chegar aos Lençóis Maranhenses pode não ser das tarefas mais simples, mas certamente vale cada segundo da viagem! Localizado no Maranhão, a 250 km de São Luís, o Parque Nacional dos Lençóis Maranhenses tem três bases principais para visitação: Barreirinhas, Santo Amaro e Atins — e o ideal é conhecer todas.",
+      "text_como_chegar2":"O único aeroporto na região é o de Barreirinhas (BRB), com voos caros da Azul Conecta partindo de São Luís (SLZ) e Parnaíba (PHB). Ainda assim, a melhor opção é o Aeroporto Internacional de São Luís (SLZ), que recebe voos diretos de várias capitais brasileiras, como São Paulo, Rio de Janeiro, Brasília, Porto Alegre, Belo Horizonte, Belém, Recife e Teresina.",
+      "text_como_chegar3":"De São Luís, é preciso seguir por via terrestre até os Lençóis, independentemente da base escolhida. Barreirinhas é a mais acessível com transporte público ou transfer direto. Para Santo Amaro, há transfers particulares a partir do aeroporto ou de Barreirinhas. Já para Atins, o acesso se dá por lancha ou 4x4 saindo de Barreirinhas.",
+      "image4":"imgs/lencois-maranhenses-image4.jpg",
+      "text_onde_ficar1":"Barreirinhas é a base principal dos Lençóis Maranhenses, com melhor infraestrutura, mais opções de hospedagem e restaurantes, e de onde partem os principais passeios, como o sobrevoo, Lagoa Azul, Lagoa Bonita, Caburé, Rio Formiga e roteiros para Atins e Santo Amaro. Ideal para quem tem poucos dias.",
+      "text_onde_ficar2":"Atins é a base mais rústica e charmosa, entre o mar e as lagoas, muito procurada por praticantes de kitesurf e um público jovem. Com ruas de areia e clima tranquilo, permite aproveitar lagoas e praia sem precisar sair em passeios todos os dias.",
+      "text_onde_ficar3":"Santo Amaro tem clima de cidade do interior, é calma e pouco movimentada. Apesar de menos procurada, oferece lagoas mais bonitas e de fácil acesso, já que está praticamente dentro do Parque Nacional, o que reduz o tempo de deslocamento."
     },
     {
       "id": "gramado",
