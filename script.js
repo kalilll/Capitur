@@ -54,6 +54,16 @@ fetch('dados.json')
     document.getElementById('image_passeios4').src = ponto.image_passeios4;
     document.getElementById('legenda_image_passeios4').textContent =ponto.legenda_image_passeios4;
     
+    document.getElementById('text_restaurantes1').textContent =ponto.text_restaurantes1;
+    document.getElementById('text_restaurantes2').textContent =ponto.text_restaurantes2;
+    document.getElementById('text_restaurantes3').textContent =ponto.text_restaurantes3;
+    document.getElementById('image_restaurantes1').src = ponto.image_restaurantes1;
+    document.getElementById('legenda_image_restaurantes1').textContent =ponto.legenda_image_restaurantes1;
+    document.getElementById('image_restaurantes2').src = ponto.image_restaurantes2;
+    document.getElementById('legenda_image_restaurantes2').textContent =ponto.legenda_image_restaurantes2;
+    document.getElementById('image_restaurantes3').src = ponto.image_restaurantes3;
+    document.getElementById('legenda_image_restaurantes3').textContent =ponto.legenda_image_restaurantes3;
+
 
     const hero = document.getElementById('hero');
     hero.style.backgroundImage = `url(${ponto.imagem_fundo})`;
@@ -81,6 +91,6 @@ fetch('dados.json')
   
     x[slideIndex[no] - 1].style.display = "block";  
   
-    setTimeout(() => showSlidesAuto(no), 3000);
+    setTimeout(() => showSlidesAuto(no), 4000);
   }
   
