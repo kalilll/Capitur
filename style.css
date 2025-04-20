@@ -6,6 +6,17 @@ body, html {
 p{
   margin: 0%;
 }
+.legenda{
+  color: gray;
+  line-height: 1em;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: justify;
+  min-width: 280px;
+  
+}
 .hero {
   background-size: cover;
   background-position: center;
@@ -103,8 +114,19 @@ a {
     justify-content: center;
     gap: 2rem;
   }
-  .text_como_chegar{
+  .text_como_chegar, .text_onde_ficar, .text_passeios, .text_restaurantes{
     margin-bottom: 5%;
+  }
+  .legenda{
+    color: gray;
+    line-height: 1em;
+    font-size: 0.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    min-width: 280px;
+    
   }
 }
 
@@ -165,7 +187,7 @@ a:hover {
   margin: auto;
 }
 
-.mySlides {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4{
   display: none;
 }
 
@@ -185,12 +207,12 @@ a:hover {
 }
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.1s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {opacity: .1}
+  to {opacity: 6}
 }
 
 .text_titulo{
@@ -202,13 +224,13 @@ a:hover {
   color: #DDA15E;
   margin-top: 5%;
 }
-.como_chegar{
+.como_chegar, .onde_ficar, .passeios, .restaurantes{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 }
-.content_como_chegar{
+.content_como_chegar, .content_onde_ficar, .content_passeios, .content_restaurantes{
   letter-spacing: 1px;
   line-height: 1.7em;
   font-size: clamp(1rem, 1.5vw, 1.3rem);
@@ -220,7 +242,7 @@ a:hover {
   min-width: 280px;
   margin: 0%;
 }
-.text_como_chegar{
+.text_como_chegar, .text_onde_ficar, .text_passeios, .text_restaurantes{
   margin-bottom: 1%;
 }
 .box_image_como_chegar{
@@ -228,10 +250,4 @@ a:hover {
   position: relative;
   margin: auto;
   margin-top: 2rem;
-}
-.onde_ficar{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
 }
