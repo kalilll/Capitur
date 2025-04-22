@@ -10,7 +10,7 @@ fetch('dados.json')
       document.body.innerHTML = '<h1>Ponto turístico não encontrado</h1>';
       return;
     }
-
+    
     document.getElementById('titulo').textContent = ponto.titulo;
     document.getElementById('descricao').textContent = ponto.descricao;
     document.getElementById('logo').src = ponto.logo;

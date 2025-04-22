@@ -110,7 +110,7 @@
       "text_restaurantes3":"",
       "image_restaurantes1":"imgs/deltaparnaiba/restaurante-delta-parnaiba-image1.jpg",
       "legenda_image_restaurantes1":"",
-      "image_restaurantes2":"imgs/deltaparnaiba/restaurante-delta-parnaiba-image2.jpg",
+      "image_restaurantes2":"imgs/deltaparnaiba/restaurante-delta-parnaiba-image2.webp",
       "legenda_image_restaurantes2":"Restaurante Mangata",
       "image_restaurantes3":"imgs/deltaparnaiba/restaurante-delta-parnaiba-image3.jpg",
       "legenda_image_restaurantes3":""
@@ -122,7 +122,7 @@
       "id": "fernando-noronha",
       "titulo": "PERNAMBUCO",
       "descricao": "FERNANDO DE NORONHA",
-      "imagem_fundo": "imgs/",
+      "imagem_fundo": "imgs/flower.webm",
       "logo": "Logo.png",
 
       "introducao1":"Fernando de Noronha mexe com o imaginário dos brasileiros. O lugar tem fama de ser uma paraíso na Terra…Algumas de suas praias são as mais bonitas do mundo. A água cristalina varia de tons de azul para esverdeados e é habitat de uma riquíssima vida marinha, que pode ser vista em qualquer praia, geralmente já pertinho da faixa de areia.",

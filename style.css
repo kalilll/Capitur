@@ -253,3 +253,12 @@ a:hover {
   margin: auto;
   margin-top: 2rem;
 }
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 10%;
+  object-fit: cover;
+  z-index: 0;
+}
