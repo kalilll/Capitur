@@ -5,21 +5,39 @@ fetch('dados.json')
   .then(response => response.json())
   .then(data => {
     const ponto = data.pontos.find(p => p.id === id);
-
-    if (ponto.video_url) {
-      const videoContainer = document.getElementById('video_container');
+      
+    if (ponto.video_url1) {
+      const videoContainer = document.getElementById('video-container1');
       const iframe = document.createElement('iframe');
-      iframe.src = ponto.video_url;
+      iframe.src = ponto.video_url1;
       iframe.title = "YouTube video player";
-      iframe.frameBorder = "0";
-      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share";
       iframe.allowFullscreen = true;
       videoContainer.appendChild(iframe);
     }
-
+    if (ponto.video_url2) {
+      const videoContainer = document.getElementById('video-container2');
+      const iframe = document.createElement('iframe');
+      iframe.src = ponto.video_url2;
+      iframe.title = "YouTube video player";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share";
+      iframe.allowFullscreen = true;
+      videoContainer.appendChild(iframe);
+    }
+    if (ponto.video_url3) {
+      const videoContainer = document.getElementById('video-container3');
+      const iframe = document.createElement('iframe');
+      iframe.src = ponto.video_url3;
+      iframe.title = "YouTube video player";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share";
+      iframe.allowFullscreen = true;
+      videoContainer.appendChild(iframe);
+    }
+    
     if (!ponto) {
       document.body.innerHTML = '<h1>Ponto turístico não encontrado</h1>';
       return;
+        
     }
     document.getElementById('text_documento').textContent = ponto.text_documento;
     document.getElementById('titulo').textContent = ponto.titulo;
@@ -75,7 +93,6 @@ fetch('dados.json')
     document.getElementById('image_restaurantes3').src = ponto.image_restaurantes3;
     document.getElementById('legenda_image_restaurantes3').textContent =ponto.legenda_image_restaurantes3;
 
-
     const hero = document.getElementById('hero');
     hero.style.backgroundImage = `url(${ponto.imagem_fundo})`;
   });
@@ -104,3 +121,6 @@ fetch('dados.json')
   
     setTimeout(() => showSlidesAuto(no), 4000);
   }
+
+
+

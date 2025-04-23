@@ -7,6 +7,10 @@ body, html {
 p{
   margin: 0%;
 }
+footer{
+  text-align: center;
+  margin-top: 10%;
+}
 .legenda{
   color: gray;
   line-height: 1em;
@@ -151,6 +155,11 @@ p{
     height: 100%;
     border: 0;
   }
+  .video{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1%;
+  }
 }
 
 .button:hover {
@@ -274,22 +283,13 @@ p{
   margin: auto;
   margin-top: 2rem;
 }
-.video-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 100px;
-  object-fit: cover;
-  z-index: 0;
-}
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  margin: 20px auto;
-
+  max-width: 1200px; 
+  z-index: 3;
 }
 
 .video-container iframe {
@@ -298,6 +298,11 @@ p{
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 3;
   border: 0;
+}
+.video{
+  display: flex;
+  gap: 0.1%;
 }
 
