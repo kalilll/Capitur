@@ -6,11 +6,22 @@ fetch('dados.json')
   .then(data => {
     const ponto = data.pontos.find(p => p.id === id);
 
+    if (ponto.video_url) {
+      const videoContainer = document.getElementById('video_container');
+      const iframe = document.createElement('iframe');
+      iframe.src = ponto.video_url;
+      iframe.title = "YouTube video player";
+      iframe.frameBorder = "0";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      videoContainer.appendChild(iframe);
+    }
+
     if (!ponto) {
       document.body.innerHTML = '<h1>Ponto turístico não encontrado</h1>';
       return;
     }
-    
+    document.getElementById('text_documento').textContent = ponto.text_documento;
     document.getElementById('titulo').textContent = ponto.titulo;
     document.getElementById('descricao').textContent = ponto.descricao;
     document.getElementById('logo').src = ponto.logo;
@@ -93,4 +104,3 @@ fetch('dados.json')
   
     setTimeout(() => showSlidesAuto(no), 4000);
   }
-  
